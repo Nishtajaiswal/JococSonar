@@ -26,18 +26,14 @@
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
+    
+     
     <build>
-  <pluginManagement>
-    <plugins>
-      <plugin>
+         <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
         <version>3.5.0.1254</version>
       </plugin>
-    </plugins>
-  </pluginManagement>
-</build>
-    <build>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
